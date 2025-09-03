@@ -4,10 +4,10 @@ export default {
     {
       title: "Création du projet avec Vite & installation des dépendances",
       language: "bash",
-      code: `cd desktop
-yarn create vite my-app --template react
-cd my-app
+      code: `yarn create vite my-app-frontend --template react
+cd my-app-frontend
 yarn add react-router-dom axios js-cookie
+code .
 yarn dev`,
     },
     {
