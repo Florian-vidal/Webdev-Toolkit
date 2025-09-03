@@ -42,6 +42,148 @@ body {
 }`,
     },
     {
+      title: "Starter - fichier CSS global de base (global.css)",
+      language: "css",
+      code: `/* -------------------------------
+   RESET DE BASE
+-------------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px; /* Base 1rem = 16px */
+}
+
+body {
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* -------------------------------
+   VARIABLES GLOBALES
+-------------------------------- */
+:root {
+  /* Couleurs principales */
+  --color-primary: #2563eb;   /* Bleu */
+  --color-secondary: #9333ea; /* Violet */
+  --color-accent: #f59e0b;    /* Orange */
+
+  /* Couleurs neutres */
+  --color-bg: #f9fafb;
+  --color-text: #1f2937;
+  --color-light: #ffffff;
+  --color-dark: #111827;
+
+  /* Typographie */
+  --font-base: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+
+  /* Espacements */
+  --spacing-xs: 0.25rem; /* 4px */
+  --spacing-sm: 0.5rem;  /* 8px */
+  --spacing-md: 1rem;    /* 16px */
+  --spacing-lg: 2rem;    /* 32px */
+  --spacing-xl: 4rem;    /* 64px */
+
+  /* Rayon de bordure */
+  --radius: 0.5rem;
+
+  /* Ombres */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* -------------------------------
+   TITRES & TEXTE
+-------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+/* -------------------------------
+   BOUTONS
+-------------------------------- */
+button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+/* -------------------------------
+   IMAGES & MEDIA
+-------------------------------- */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+}
+
+/* -------------------------------
+   LAYOUT
+-------------------------------- */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* -------------------------------
+   UTILITAIRES
+-------------------------------- */
+.text-center {
+  text-align: center;
+}
+
+.mt-md { margin-top: var(--spacing-md); }
+.mb-md { margin-bottom: var(--spacing-md); }
+`,
+    },
+    {
       title: "Reset CSS (reset.css)",
       language: "css",
       code: `/* -----------------------------
