@@ -104,7 +104,8 @@ function About() {
         En parallèle de ma formation, j’ai donc décidé de créer une appli web “trousse à outils”
         pour développeurs débutants. L’appli est loin d’être exhaustive et il y a encore quelques 
         erreurs et améliorations à venir mais c’est un début et elle me permet de retrouver 
-        l’essentiel à portée de clic 👉{" "}
+        l’essentiel à portée de clic </p>
+      <p>👉{" "}
         <a
           href="https://toolkitwebdev.netlify.app/"
           target="_blank"
