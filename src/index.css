@@ -1,0 +1,62 @@
+/* index.css */
+@import "prismjs/themes/prism-tomorrow.css";
+
+/* ⚡ Import Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================== */
+/* 🌐 Styles globaux     */
+/* ===================== */
+body {
+  @apply bg-gray-50 text-gray-800 leading-relaxed;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+
+
+/* ===================== */
+/* 💻 Code & snippets    */
+/* ===================== */
+pre {
+  @apply bg-gray-900  rounded-md p-4 overflow-x-auto text-sm;
+  font-family: 'Fira Code', monospace;
+}
+
+code {
+  @apply text-green-300;
+}
+
+/* 🎨 Style VS Code Dark pour les blocs <pre><code> */
+pre {
+  background-color: #1e1e1e; /* fond VS Code */
+  color: #d4d4d4; /* texte par défaut */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: "Fira Code", "Consolas", monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  overflow-x: auto;
+}
+
+/* 🌈 Couleurs inspirées de VS Code */
+code .keyword {
+  color: #569cd6; /* bleu */
+}
+code .string {
+  color: #ce9178; /* orange */
+}
+code .number {
+  color: #b5cea8; /* vert clair */
+}
+code .function {
+  color: #dcdcaa; /* jaune pâle */
+}
+code .variable {
+  color: #9cdcfe; /* bleu clair */
+}
+code .comment {
+  color: #6a9955; /* vert commentaire */
+  font-style: italic;
+}

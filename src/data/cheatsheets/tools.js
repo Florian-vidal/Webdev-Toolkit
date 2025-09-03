@@ -1,0 +1,185 @@
+export default {
+  id: "tools",
+  title: "Outils & Sites Web",
+  description: "Sites utiles, extensions et outils pratiques pour dev web",
+  image: "/images/tools.png",
+  sections: [
+    {
+      title: "🌐 Sites utiles",
+      links: [
+        {
+          label: "Google Fonts",
+          url: "https://fonts.google.com/",
+          description: "Bibliothèque de polices gratuites pour le web.",
+          icon: "🔤",
+        },
+        {
+          label: "World Vector Logo",
+          url: "https://worldvectorlogo.com/",
+          description: "Logos SVG de marques et entreprises en format vectoriel.",
+          icon: "🖼️",
+        },
+        {
+          label: "React Icons",
+          url: "https://react-icons.github.io/react-icons/",
+          description: "Pack complet d’icônes (FontAwesome, Material, etc.) pour React.",
+          icon: "⚛️",
+        },
+        {
+          label: "TailwindCSS",
+          url: "https://tailwindcss.com/",
+          description: "Framework CSS utility-first pour des designs modernes et réactifs.",
+          icon: "🎨",
+        },
+        {
+          label: "Framer Motion",
+          url: "https://www.framer.com/",
+          description: "Librairie d’animations fluide et intuitive pour React.",
+          icon: "🎬",
+        },
+        {
+          label: "Material UI",
+          url: "https://mui.com/material-ui/all-components/",
+          description: "Composants React inspirés de Material Design.",
+          icon: "📦",
+        },
+        {
+          label: "HTML Arrows",
+          url: "https://www.toptal.com/designers/htmlarrows/punctuation/",
+          description: "Entités HTML : flèches, symboles et caractères spéciaux.",
+          icon: "➡️",
+        },
+        {
+          label: "Can I Use",
+          url: "https://caniuse.com/webp",
+          description: "Vérifie la compatibilité navigateur des propriétés CSS/JS.",
+          icon: "🧪",
+        },
+        {
+          label: "CodePen",
+          url: "https://codepen.io/",
+          description: "Editeur en ligne pour tester rapidement du code HTML, CSS, JS.",
+          icon: "🖊️",
+        },
+        {
+          label: "HTML-CSS-JS Playground",
+          url: "https://html-css-js.com/",
+          description: "Alternative simple à CodePen pour expérimenter du code en ligne.",
+          icon: "🎮",
+        },
+        {
+          label: "Excalidraw",
+          url: "https://excalidraw.com/",
+          description: "Outil de schémas rapides façon tableau blanc collaboratif.",
+          icon: "📝",
+        },
+        {
+          label: "Regex101",
+          url: "https://regex101.com/",
+          description: "Testeur et validateur de regex en temps réel avec explications.",
+          icon: "🔍",
+        },
+      ],
+    },
+    {
+      title: "🧩 Extensions Chrome",
+      links: [
+        {
+          label: "Fonts Ninja",
+          url: "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
+          description: "Détecte les polices utilisées sur une page web.",
+          icon: "👀",
+        },
+        {
+          label: "ColorZilla",
+          url: "https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp",
+          description: "Pipette pour récupérer les codes couleurs d’un site.",
+          icon: "🎨",
+        },
+        {
+          label: "JSON Viewer",
+          url: "https://chrome.google.com/webstore/detail/json-viewer/aimiinbnnkboelefkjlenlgimcabobli",
+          description: "Affiche les objets JSON dans un format lisible.",
+          icon: "📜",
+        },
+        {
+          label: "Dimensions",
+          url: "https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj",
+          description: "Mesure les éléments d’une page web directement à l’écran.",
+          icon: "📏",
+        },
+        {
+          label: "Wappalyzer",
+          url: "https://chrome.google.com/webstore/detail/wappalyzer/ppaojckofopcbpkgmjjmmflkgnplbdml",
+          description: "Détecte les technologies utilisées par un site.",
+          icon: "🔧",
+        },
+        {
+          label: "GoFullPage",
+          url: "https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl",
+          description: "Capture d’écran complète d’une page web.",
+          icon: "📸",
+        },
+        {
+          label: "Measure-it",
+          url: "https://chrome.google.com/webstore/detail/measure-it/ajfboaconbpgdffkmdpdenjhlaedpgfh",
+          description: "Outil de mesure d’éléments sur une page.",
+          icon: "📐",
+        },
+        {
+          label: "Save image as Type",
+          url: "https://chrome.google.com/webstore/detail/save-image-as-type/jmkaglaafmhbcpleggkmaliipiilhldn",
+          description: "Enregistre une image sous différents formats.",
+          icon: "💾",
+        },
+      ],
+    },
+    {
+      title: "🛠️ Extensions VS Code",
+      links: [
+        {
+          label: "Prettier",
+          url: "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+          description: "Formateur de code automatique pour un style uniforme.",
+          icon: "✨",
+        },
+        {
+          label: "Live Server",
+          url: "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          description: "Lance un serveur local avec rechargement automatique.",
+          icon: "⚡",
+        },
+        {
+          label: "Auto Rename Tag",
+          url: "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag",
+          description: "Renomme automatiquement les balises HTML/JSX jumelles.",
+          icon: "🔄",
+        },
+        {
+          label: "EditorConfig",
+          url: "https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig",
+          description: "Uniformise les styles de code entre plusieurs développeurs.",
+          icon: "⚙️",
+        },
+        {
+          label: "Color Highlight",
+          url: "https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight",
+          description: "Surligne visuellement les codes couleur dans le code.",
+          icon: "🌈",
+        },
+        {
+          label: "FontSize Shortcuts",
+          url: "https://marketplace.visualstudio.com/items?itemName=lkytal.FontSizeShortcuts",
+          description: "Ajoute des raccourcis pour ajuster la taille de la police.",
+          icon: "🔍",
+        },
+        {
+          label: "Material Icon Theme",
+          url: "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
+          description: "Icônes modernes et lisibles dans l’arborescence de projet.",
+          icon: "📂",
+        },
+      ],
+    },
+  ],
+};

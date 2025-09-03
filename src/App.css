@@ -1,0 +1,24 @@
+/* App.css */
+/* ⚡ Styles spécifiques à ton application */
+
+/* Exemple : titre principal personnalisé */
+.title {
+  @apply text-4xl font-bold text-primary mb-6;
+}
+
+/* Exemple : boutons personnalisés */
+.btn {
+  @apply px-4 py-2 rounded font-semibold text-white transition;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-indigo-700;
+}
+
+.btn-secondary {
+  @apply bg-secondary hover:bg-green-700;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-orange-600;
+}
