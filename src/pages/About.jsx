@@ -66,8 +66,7 @@ function About() {
         >
           Le Reacteur
         </a>
-        , un bootcamp intensif
-        full-stack JavaScript.
+        , un bootcamp intensif full-stack JavaScript.
       </p>
       <ul className="list-disc pl-6">
         <li>Un programme en phase avec les besoins réels des entreprises</li>
@@ -81,7 +80,7 @@ function About() {
         m’a paru le plus exigeant (complexe mais très puissant). Le backend a
         été un vrai coup de cœur, notamment la gestion des données entre client,
         serveur et base de données. J’ai particulièrement aimé développer la
-        réplique de Vinted, riche en fonctionnalités de marketplace.
+        réplique de Vinted, de MARVEL ou encore de Deliveroo, riche en fonctionnalités de style marketplace.
       </p>
       <p>
         L’une de mes surprises les plus marquantes : la puissance des
@@ -102,7 +101,7 @@ function About() {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Mes projets</h2>
       <p>
-        En parallèle de ma formation, j’ai créé une appli web “trousse à outils”
+        En parallèle de ma formation, j’ai donc décidé de créer une appli web “trousse à outils”
         pour développeurs débutants 👉{" "}
         <a
           href="https://toolkitwebdev.netlify.app/"
@@ -114,7 +113,7 @@ function About() {
         </a>
       </p>
       <p>
-        Elle m’aide à garder l’essentiel à portée de main. Une première version
+        Cette appli m’aide à garder l’essentiel à portée de main. Une première version
         codée avec l’aide de l’IA, mais que je compte re-coder entièrement avec
         mes compétences acquises au bootcamp.
       </p>
