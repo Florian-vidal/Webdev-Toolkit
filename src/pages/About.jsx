@@ -102,7 +102,9 @@ function About() {
       <h2 className="text-xl font-semibold mt-6 mb-2">Mes projets</h2>
       <p>
         En parallèle de ma formation, j’ai donc décidé de créer une appli web “trousse à outils”
-        pour développeurs débutants. L’appli est loin d’être exhaustive et il y a encore quelques erreurs et améliorations à venir mais c’est un début et elle me permet de retrouver l’essentiel à portée de clic 👉{" "}
+        pour développeurs débutants. L’appli est loin d’être exhaustive et il y a encore quelques 
+        erreurs et améliorations à venir mais c’est un début et elle me permet de retrouver 
+        l’essentiel à portée de clic 👉{" "}
         <a
           href="https://toolkitwebdev.netlify.app/"
           target="_blank"
@@ -113,7 +115,9 @@ function About() {
         </a>
       </p>
       <p>
-        Une grosse partie de l’appli a été codée par l’IA mais le contenu et l’agencement est de moi. Le but étant de proposer du contenu pratique en ligne rapidement et en parallèle de ma formation. Lorsque j’aurai le temps, je re-coderai l’appli avec mes compétences propres acquises chez Le Reacteur à la fin du bootcamp.
+        Une grosse partie de l’appli a été codée par l’IA mais le contenu et l’agencement est de moi. 
+        Le but étant de proposer du contenu pratique en ligne rapidement et en parallèle de ma formation. 
+        Lorsque j’aurai le temps, je re-coderai l’appli avec mes compétences propres acquises chez Le Reacteur à la fin du bootcamp.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Et demain ?</h2>
