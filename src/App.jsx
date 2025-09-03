@@ -22,7 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} /> {/* Page d'accueil */}
             <Route path="/category/:id" element={<Category />} /> {/* Page par catégorie */}
-            <Route path="/about" element={<About /> {/* Page About me */}
+            <Route path="/about" element={<About />} /> {/* Page About me */}
           </Routes>
         </main>
 
