@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react"; // ✅ icônes
-import { motion, AnimatePresence } from "framer-motion"; // ✅ animations
+import { Menu, X } from "lucide-react"; // icônes
+import { motion, AnimatePresence } from "framer-motion"; // animations
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // 📂 Catégories à afficher
+  // Catégories à afficher
   const navItems = [
     { id: "html", label: "HTML5" },
     { id: "css", label: "CSS3" },
@@ -16,8 +16,6 @@ function Header() {
     { id: "mongodb", label: "MongoDB" },
     { id: "git", label: "Git & GitHub" },
     { id: "tools", label: "Outils" },
- 
-
   ];
 
   return (
