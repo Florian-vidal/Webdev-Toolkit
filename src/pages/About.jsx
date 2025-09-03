@@ -59,7 +59,7 @@ function About() {
         En 2019, j’ai suivi un premier bootcamp autour de PHP et Symfony.
         Aujourd’hui, j’ai choisi de me former sérieusement au métier de
         développeur web avec <a
-          href="https://www.linkedin.com/in/vidal-florian/"
+          href="https://www.lereacteur.io/"
           target="_blank"
           rel="noreferrer"
           className="text-blue-600 underline"
