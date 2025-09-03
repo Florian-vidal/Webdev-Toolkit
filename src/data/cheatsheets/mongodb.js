@@ -1,6 +1,6 @@
 export default {
   id: "mongodb", // ✅ doit correspondre à /category/mongodb
-  title: "MongoDB - Le package Mongoose",
+  title: "MongoDB",
   description: "Commandes essentielles pour bases NoSQL",
   image: "/images/mongodb.svg",
   snippets: [
