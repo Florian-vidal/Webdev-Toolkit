@@ -6,8 +6,10 @@ const expressCheatsheet = {
   snippets: [
     {
       title: "📂 Création projet",
-      code: `npm init -y
+      code: `mkdir my-app
+cd my-app-backend
 npm install express mongoose cors dotenv
+code .
 npx nodemon`,
     },
     {
