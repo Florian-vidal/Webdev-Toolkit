@@ -7,7 +7,7 @@ function About() {
 
       <p>
         Ce site regroupe mes aides-mémoire de développeur web junior : HTML5,
-        CSS3, JavaScript, React, Git, etc. ✨ Utile pour réviser, pratiquer et
+        CSS3, JavaScript, React, Git, etc. Utile pour réviser, pratiquer et
         progresser.
       </p>
 
@@ -16,7 +16,7 @@ function About() {
         Je m’appelle <strong>Florian Vidal</strong>, j’ai 38 ans et je vis à
         Bordeaux, en Gironde. Aujourd’hui en reconversion professionnelle vers
         le développement web, je suis animé par l’envie d’apprendre, de
-        progresser et de construire des projets numériques utiles et créatifs.
+        progresser et de construire des projets web utiles et créatifs.
       </p>
       <p>
         👉{" "}
@@ -58,7 +58,15 @@ function About() {
       <p>
         En 2019, j’ai suivi un premier bootcamp autour de PHP et Symfony.
         Aujourd’hui, j’ai choisi de me former sérieusement au métier de
-        développeur web avec <strong>Le Reacteur</strong>, un bootcamp intensif
+        développeur web avec <a
+          href="https://www.linkedin.com/in/vidal-florian/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-600 underline"
+        >
+          Le Reacteur
+        </a>
+        , un bootcamp intensif
         full-stack JavaScript.
       </p>
       <ul className="list-disc pl-6">
