@@ -11,23 +11,23 @@ export default {
     },
     {
       title: "Import",
-      language: "bash",
+      language: "js",
       code: `const mongoose = require("mongoose");`,
     },
     {
       title: "Connexion à la base de données MongoDB (en local)",
-      language: "bash",
+      language: "js",
       code: `mongoose.connect("mongodb://localhost:27017/students-app");`,
     },
     {
       title: "Connexion à la base de données MongoDB (en distant)",
-      language: "bash",
+      language: "js",
       code: `mongoose.connect("mongodb+srv://<username>:<password>@cluster0.mongodb.net/mydb");`,
     },
     {
-      title: "Créer et utiliser une base",
-      language: "js",
-      code: `use myDatabase; // créer ou basculer sur une base`,
+      title: "Créer et utiliser une base (Mongo Shell)",
+      language: "bash",
+      code: `use myDatabase // créer ou basculer sur une base`,
     },
     {
       title: "CRUD de base",
