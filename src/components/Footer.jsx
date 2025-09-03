@@ -1,10 +1,14 @@
-// Footer.jsx
-// ⚡ Pied de page avec la date dynamique
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="bg-gray-800 text-white text-center p-4">
-      <p>© {new Date().getFullYear()} Florian Vidal | Webdev Toolkit | <Link to="/about">À propos</Link></p>
+      <p>
+        © {new Date().getFullYear()} Florian Vidal | Webdev Toolkit |{" "}
+        <Link to="/about" className="hover:underline text-blue-400">
+          À propos
+        </Link>
+      </p>
     </footer>
   );
 }
