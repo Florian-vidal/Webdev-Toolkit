@@ -1,5 +1,4 @@
-// About.jsx
-// ⚡ Page "À propos"
+// Page "À propos"
 
 function About() {
   return (
