@@ -59,7 +59,7 @@ app.post("/form", (req, res) => {
 });
 
 // Catch-all → toute route non définie renvoie 404
-app.all("*", (req, res) => {
+app.all(/.*/, (req, res) => {
   res.status(404).json("Not found ❌");
 });`,
     },
